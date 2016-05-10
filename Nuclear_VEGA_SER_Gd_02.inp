@@ -1,0 +1,15 @@
+2				: Type of reaction :: 1 = fission with 92U, 2 = Absorption with 64Gd
+2.0		cm		: Source Radius
+4.0		cm		: Scatterer Radius
+8.0e-4		cm		: Thickness of the Scatterer :: 8e-4 for U 3gm @15mg/cm^2, 9cm for Gd @0.2% by wt
+50.0		cm		: Radius of the Reflector
+5.0		cm		: Thickness of the Reflector
+2000.0		gm		: Total weight of the Gd/D2O in slab
+100.0		% by weight	: Enrichment of U235 in mixture
+3.0		gm		: Amount of Natural Uranium
+0.25		% by weight	: Concentration of Gd in Gd152/D2O OR Gd157/D2O mixture
+15			    	: moderator >> 15:D2O  		16:Graphite   21:Plastics (C2H4)n
+17				: Material  >> 17:Gadolinium  	18:U
+1.0e+4				: Total number of neutrons undergoing Monte Carlo
+#4000000.0	eV		: Initial Energy of Neutron for 92U			
+25000.0	eV		: Inital Energy of Neutrons for thermalizing Gd
